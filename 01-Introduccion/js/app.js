@@ -52,3 +52,26 @@ console.warn("Esto no esta permitido");
 console.warn("Esto no esta permitido");
 console.warn("Esto no esta permitido");
 console.timeEnd("Hola");
+
+//Consideraciones del uso de ; con JS
+// JavaScript tiene una caracteristica, a diferencia de otros lenguajes de programación el ;
+// al final no es obligarorio salvo que tengas dos lineas de codigo en una misma
+// Ejemplo
+// console.log('Victor')
+// console.log('Campos')
+
+// Esto va a funcionar, pero si tienes un codigo desordenado; no va a funcionar salvo que se
+// ponga el ;
+// console.log('Victor'); console.log('Campos');
+
+// Como recomendación pon una iinstrucción por linea, no es obligatorio salvo el caso que vimos
+// anteriormente pero va a facilitar mucho la lectura del codigo.
+
+// ahora, vamos a crear una funcion
+
+// function hola(){
+// console.log('Hola');
+// }
+
+// En el caso anterior la funcion va a funcionar sin embargo es buena practica dar espcio o tab
+// al codigo interno de la funcion.
